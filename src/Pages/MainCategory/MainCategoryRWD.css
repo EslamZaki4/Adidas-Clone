@@ -1,0 +1,106 @@
+.main-cat-men , .main-cat-women , .main-cat-kids  {
+  background-size: 130% 100%;
+  height: 190px; 
+  width: 97%; 
+  margin-block: 12px;
+  background-size: 100% 190%;
+
+}
+
+@media (min-width: 576px) {
+
+  .main-cat-men , .main-cat-women , .main-cat-kids  {
+    background-size: 130% 100%;
+    height: 190px; 
+    width: 95%; 
+    margin-block: 20px;
+    background-size: 100% 190%;
+    margin: 50px;
+    .main-cat-btn {
+      width: 30%;
+    }
+  
+}}
+
+
+@media (min-width: 768px) {
+
+  .main-cat-men , .main-cat-women , .main-cat-kids  {
+    width: 35% !important;
+    height: 300px;
+    background-size: 190% 100%;
+background-size: contain;    
+background-size: cover;
+
+     .main-cat-btn {
+      width: 90%;
+      height: 15%;
+
+    }
+
+  }
+
+
+}
+
+
+@media (min-width: 992px) {
+
+  .main-cat-men , .main-cat-women , .main-cat-kids  {
+    width: 23% !important;
+    background-size: 130% 100%;
+    margin-inline: 8px;
+
+    .main-cat-btn {
+      width: 80%;
+      height: 50px;
+    
+    }
+
+  }
+
+}
+
+@media (max-width: 575px) {
+  .main-cat-men,
+  .main-cat-women,
+  .main-cat-kids {
+    width: 100%;
+    margin-inline: 0;
+    margin-block: 20px;
+    
+  }
+
+  .main-cat-btn {
+    width: 35%;
+    height: auto;
+    padding: 10px;
+    
+  }
+}
+
+
+
+@media (min-width: 1200px) {
+
+  .main-cat-men , .main-cat-women , .main-cat-kids  {
+    width: 23% !important;
+    background-size: 100% 100%;
+    margin-inline: 10px;
+    background-size: cover;
+
+    .main-cat-btn {
+      width:fit-content;
+      min-width: 60%;
+      padding-inline: 30px;
+      height: 50px;
+    
+    }
+
+  }
+
+
+}
+
+
+@media (min-width: 1400px) {}

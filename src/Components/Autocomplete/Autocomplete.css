@@ -1,0 +1,84 @@
+
+
+.result-srch {
+    overflow-y: scroll;
+    direction: rtl;
+    max-height: 500px;
+}
+
+.srchinput-container::after {
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background-image: url('https://www.adidas.com.eg/on/demandware.static/Sites-adidas-EG-Site/-/default/dw611acf18/images/search.svg');
+    background-size: 100% 100%;
+    top: 5px;
+    left: 25px;
+
+}
+
+#srchinput {
+    height: 30px;
+    background-color: #ebedee;
+    border: none;
+    border-radius: 4px;
+
+    width: 100%;
+
+    &::placeholder {
+        font: 10px;
+        opacity: 0.7;
+        font-weight: 100;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .srchinput-container::after {
+        display: none !important;
+    }
+
+}
+@media (max-width: 992px) {
+    .srchinput-container::after {
+        display: none !important;
+    }
+
+
+
+
+
+
+
+
+
+    .autocomplete {
+        width: 100%;
+    
+        & input {
+            height: 50px !important;
+            border: 2px solid #ecd9db !important;
+        }
+    
+        & .srchinput-container::after {
+            display: none;
+        }
+
+        & .srchinput-container > i {
+            display: inline-flex;
+        }
+        & input::placeholder {
+            font-size: x-large;
+        }
+    
+    }
+
+
+
+
+
+
+
+}
+

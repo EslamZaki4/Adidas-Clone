@@ -1,0 +1,24 @@
+.cart-Show{
+    background-color:black;
+    color: white;
+    width: 40% ;
+    height: 40px;
+    box-shadow: 3px 2px rgb(238, 230, 230);
+    text-align: end;
+    }
+    .cart-Show:hover{
+background-color: white;
+color: black;
+
+    }
+    .arrow-black {
+        scale: -1;
+        bottom: 15px;
+        left: 20px;
+    }
+    .arrow-white{
+        scale: -1;
+        bottom: 15px;
+        left: 60px;
+    }
+  

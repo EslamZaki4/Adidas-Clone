@@ -1,0 +1,140 @@
+.login_buttne ,.regist_buttne{
+    background-color:black;
+    color: white;
+    width: 40% ;
+    height: 40px;
+    box-shadow: 3px 2px black;
+    text-align: end;
+    }
+    .login_buttne:hover{
+        opacity: .9;
+    }
+    .arrow-login{
+        scale: -1;
+        bottom: 10px;
+        left: 20px;
+      
+    }
+    .cansel{
+      color:red;
+      left: 70px;
+      top:15px
+    
+    }
+    .raight{
+      left: 70px;
+      color: green;
+      top: 15px;
+    }
+    
+    .google-regist{
+        width: 40%;
+        height: 50px;  
+        /* padding: 2px; */
+        font-weight: 700;
+        font-size: 13px;
+        font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+        letter-spacing: 2px;
+        background-color: white;
+    
+        & img{
+            width: 25px;
+            bottom: 8px;
+            left: 20px;
+        }
+    
+    }
+    
+
+    .login-logo-small-siez{
+        display:none !important;
+      }
+
+      .phone-input{
+        position: absolute;
+        width: 90% !important;
+        height: 50px !important;
+      }
+      .onshow-pass:hover{
+color: white;
+background-color: black;
+cursor: pointer;
+      }
+   
+    @media (max-width: 992px) { 
+
+
+
+    
+        .adidas-login-text{   
+            display: none;
+                  
+              }
+    
+              .adidas-regist{
+    height: 380vh;
+                background-image:url('https://eu.idp.adidas.com/assets/images/adidas/universal-login/mobile.png');
+                background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    /* line-height: 60%; */
+    position: relative;
+                
+              }
+              .regist-adidas-form{
+        padding-right: 15px;
+;
+    position: absolute;
+    bottom: 1%;
+    height: 98%;
+    width: 90% !important;
+
+                background-color: white;
+              }
+              
+              .login-logo{
+    
+                display: none !important;
+    
+              }
+              .login-logo-small-siez{
+                display:flex !important;
+                justify-content: center;
+                margin: 10px;
+              }
+              .form-group{
+                padding: 10px;
+    
+                width: 100%  !important;
+              }
+              .login_buttne{
+    
+                width: 30% !important;
+              }
+          
+        }
+    .more-read{
+    
+      color:rgb(224, 189, 144);
+    }
+      .more-read:hover{
+    background-color: rgb(175, 141, 99);
+      }
+/* .checked-gender{
+    display: flex;
+    flex-direction: row-reverse;
+} */
+  .text-form{
+
+
+    font-family: "AdineuePRO",Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+
+  

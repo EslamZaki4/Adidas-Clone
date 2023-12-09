@@ -1,0 +1,102 @@
+.payment-container{
+    direction: rtl;
+}
+
+.payment-title{
+    justify-content: space-around;
+    display: flex;
+    margin: 20px;
+
+}
+*{
+    box-sizing: border-box;
+}
+.payment-divaider h1{
+    margin: 30px;
+    color: black;
+}
+.payment-box{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+    height: 50px;
+    
+}
+
+.icons{
+    color: red;
+}
+.radio-payment{
+    margin-right: 100px;
+}
+.payment-details{
+    display: flex;
+    justify-content: space-between ;
+}
+.form-control{
+    margin: 30px;
+    width: 200px;
+}
+.part1{
+height: fit-content;}
+.part2{
+    height: fit-content;
+}
+.payment-container {
+    display: flex;
+    direction: rtl;
+    justify-content: space-around;
+    margin: 50px;
+}
+.payment-radio{
+margin-right: 50px;
+}
+.payment-aside{
+    display: flex;
+}
+.Shipping-Method2{
+    direction: rtl;
+    display: flex;
+
+}
+.payment-divider{
+    display: block;
+}
+.Shipping-Method{
+    direction: rtl;
+    margin: 50px;
+}
+.Standard-Shipping{
+    color: chocolate;
+}
+.pay-container{
+    display: flex;
+    direction: rtl;
+    margin: 30px;
+}
+.Imge-1{
+    background-image: url(https://s3.global-e.com/Images/Sprites/sprite_pm_47.png);
+    background-position: -5px -5px;
+height: 85px;
+width: 80px;
+margin-top: 20px;
+background-repeat: no-repeat;
+}
+
+@media (max-width: 543.98px){
+    .part2{
+      display: none;
+    }
+    .payment-box{
+margin-top: 20px; 
+margin-right: 0px;   }
+  }
+  #footer-detals{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+  }
+  #payment-btn{
+margin: 50px;
+direction: ltr;
+}

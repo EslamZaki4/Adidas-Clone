@@ -1,0 +1,22 @@
+.offers{
+    height: 77vh;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers::after{
+
+    content: "";
+    background-image: url(https://cdn.freebiesupply.com/logos/large/2x/adidas-logo.png);
+    background-size: 100% 100% ;
+
+opacity: 0.8;
+position: absolute;
+    width: 100%;
+    margin-right: 200px;
+    height: 600px;
+    opacity: 0.4;
+
+}

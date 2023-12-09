@@ -1,0 +1,145 @@
+.main{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.prd-card {
+  cursor: pointer;
+  width: 99%;
+}
+
+.prd-row{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.headline{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-inline: 20px;
+
+}
+/* .headline *{
+  display: inline;
+  
+} */
+.filter-btn{
+  width: 180px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.558);
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  padding-inline: 15px;
+}
+
+.main .prd-body {
+
+
+
+  & .prd-name a {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  & .prd-price span {
+    font-size: 11px;
+    font-weight: 700;
+    color: rgb(21, 19, 19) !important;
+  }
+
+
+  & del span{
+    font-size: 11px;
+    font-weight: 700;
+    color: rgba(128, 128, 128, 0.414) !important;
+    
+    display: none;
+  }
+
+}
+
+
+
+
+
+@media (min-width: 576px) {}
+
+
+@media (min-width: 768px) {
+  
+}
+
+
+@media (max-width: 992px) {
+
+ p.title{
+
+  min-width: fit-content;
+ }
+
+
+  .prd-row{
+    width: 95%;
+  }
+  .main .prd-container {
+
+    position: relative;
+
+
+
+  }
+
+
+
+}
+
+
+@media (min-width: 992px) {
+
+ 
+
+
+  .prd-row{
+    width: 95%;
+  }
+  .main .prd-container {
+    width: 25%;
+    position: relative;
+
+
+
+  }
+
+
+
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+
+  .prd-row{
+    width: 90%;
+  }
+  .main .prd-container {
+    
+    width: 25%;
+
+  }
+
+
+}
+
+
+
+
+
+@media (min-width: 1400px) {}

@@ -1,0 +1,27 @@
+
+.alert-container {
+  font-size: larger;
+  position: fixed;
+  top: 15%;
+  left: 50%;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  animation: fade 0.5s linear forwards;
+  box-shadow: 1px 1px 5px grey;
+  padding: 1px;
+  background-color:#a7c1b9;
+  border-radius: 8px;
+}
+
+.alert {
+  text-align: center;
+}
+
+@keyframes fade {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}

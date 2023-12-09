@@ -1,0 +1,59 @@
+/* 
+
+@media (min-width: 576px) {
+
+}
+
+
+  @media (min-width: 768px) {  
+
+
+
+  }
+  
+
+  @media (min-width: 992px) { 
+
+
+
+
+}
+  
+
+  @media (min-width: 1200px) { 
+
+    #navTop{
+        font-size: 13px;
+        line-height: 16px;
+        margin-left: 24px;
+        display: flex !important;
+    }
+
+
+    #navLinksBottom *{
+        display: flex !important;
+    }
+
+    .srch-container{
+        display: flex;
+    }
+
+
+    .nav-toggle-btn{
+        display: none;        
+    }
+
+    img[title='wishlist']{
+        display: block;
+    }
+
+    img[title='srch']{
+        display: none;
+    }
+
+
+
+   }
+  
+
+  @media (min-width: 1400px) {  } */

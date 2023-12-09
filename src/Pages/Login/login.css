@@ -1,0 +1,90 @@
+.login_buttne ,.regist_buttne{
+    background-color:black;
+    color: white;
+    width: 40% ;
+    height: 40px;
+    box-shadow: 3px 2px black;
+    text-align: end;
+    }
+    .login_buttne:hover{
+        opacity: .9;
+    }
+    .arrow-login{
+        scale: -1;
+        bottom: 10px;
+        left: 20px;
+    }
+    
+    .google-login{
+        width: 30%;
+        height: 40px;  
+        padding: 2px;
+    
+        & img{
+            width: 25px;
+            bottom: 5px;
+            left: 20px;
+        }
+    
+    }
+    
+    .login-logo-small-siez{
+        display:none !important;
+      }
+    
+    @media (max-width: 992px) { 
+    
+        .adidas-login-text{   
+            display: none;
+                  
+              }
+    
+              .adidas-login{
+    height: 120vh;
+                background-image:url('https://eu.idp.adidas.com/assets/images/adidas/universal-login/mobile.png');
+                background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    /* line-height: 60%; */
+    position: relative;
+                
+              }
+              .adidas-login-form{
+    
+    position: absolute;
+    bottom: 5%;
+    
+    width: 90vw;
+                background-color: white;
+              }
+              
+              .login-logo{
+    
+                display: none !important;
+    
+              }
+              .login-logo-small-siez{
+                display:flex !important;
+                justify-content: center;
+                margin: 10px;
+              }
+              .form-group{
+                padding: 10px;
+    
+                width: 100%  !important;
+              }
+              .login_buttne{
+    
+                width: 30% !important;
+              }
+          
+        }
+    .more-read{
+    
+      color:rgb(224, 189, 144);
+    }
+      .more-read:hover{
+    background-color: rgb(175, 141, 99);
+      }

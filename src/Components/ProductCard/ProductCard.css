@@ -1,0 +1,54 @@
+@font-face {
+    font-family: adihausDin;
+    src: url(../../assets/fonts/adihausDin.ttf);
+}
+
+.prd-body {
+    font-family: adihausDin;
+    text-align: end;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.prd-name a {
+
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.curr-price {
+    color: #e32b2b;
+}
+
+.prev-price {
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.pct-discount {
+    margin-top: -10px;
+
+    & span {
+
+        position: relative;
+        top: -20px;
+        left: -10px;
+        font-size: 13px;
+        background-color: white;
+    }
+
+}
+
+.card-border{
+    border: 1px solid rgb(15, 15, 18);
+}
+.Love-card{
+    position: absolute;
+    top: 10px;
+    left:5px;
+    cursor: pointer;
+   
+   }

@@ -1,0 +1,19 @@
+.slick-slide{
+    background-color: #ebeeef;
+    margin-top: -12px;
+    margin-bottom: 4px;
+    margin-right: 5px;
+
+    & :hover{
+        border-bottom: 2px solid black;
+        cursor: pointer;
+
+ 
+    }
+
+}
+
+.slick-slide-container{
+    justify-content: flex-end;
+
+}

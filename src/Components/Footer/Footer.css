@@ -1,0 +1,151 @@
+#footer-container {
+  background-color: #eee635;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.member-section-message {
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  font-family: "AdineuePRO", sans-serif;
+  font-weight: 700;
+  color: #000;
+  font-weight: bold;
+}
+
+.btn-footer11{
+  direction: rtl;
+}
+.btn-container {
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.btn-adidas-dark {
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  box-shadow: 3px 3px 5px #888888;
+  border: 2px solid #000;
+
+}
+
+#footer2 {
+  background-color: #000;
+  position: relative;
+  height: fit-content;
+  padding-top: 10px;
+  direction: rtl;
+  
+}
+@media (max-width: 543.98px){
+  #footer2{
+    display: none;
+  }
+  #footer-detals{
+    display: none;
+  }
+}
+#footer-detals{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+@media (min-width: 543.98px){
+  .dropdown{
+    display: none;
+  }
+  .Divider{
+    display: none;
+
+  }
+  .footer-icon-dropdown{
+    display: none;
+  }
+  .datasetting{
+    display: none;
+    line-height: 2px;
+  }
+  
+}
+.footer-title {
+  color: white;
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.footer-container {
+  direction: rtl;
+  justify-content: space-between;
+  padding: 3px;
+}
+
+#footer-Icon {
+  color: white;
+  font-size: 30px;
+  line-height: 15px;
+
+}
+
+.footer-divider-container {
+  justify-content: center;
+  display: block;
+
+}
+
+.footer-divider {
+  color: white;
+  font-weight: bold;
+  font-size: 5px;
+justify-content: center;}
+
+#dropdown-button {
+justify-content: end;
+margin: 0px;
+}
+/* Footer.css */
+
+/* Add a class to style Nav.Link components */
+.white-link {
+    color: azure !important;
+    display: block;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 11px;
+  }
+  .dropdown-menu-end{
+    color: rgb(13, 14, 14) !important;
+
+  }
+  #dropdown-container{
+    background-color: black;
+  }
+  
+#Dropdown-Menu {
+  justify-content: center;
+  background-color: black;
+  color: azure !important;
+  
+}
+.Divider{
+color: white;}
+
+.vertical-line {
+  border-right: 1px solid #ccc; 
+  margin: 0 10px; 
+}
+.parent{
+  position: relative;
+  margin-top: 10vh;
+}
+

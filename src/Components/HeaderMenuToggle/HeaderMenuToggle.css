@@ -1,0 +1,121 @@
+.header-menu-toggle{
+    position: relative;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+    left: 100%;
+    width: 60%;
+    height: 100vh;
+    overflow-y: scroll;
+    direction: rtl;
+    transition: all 0.25s linear;
+}
+.showToggleMenu{
+    left: 40%;
+    /* animation: toggleMenu-anime 0.5s; */
+}
+
+/* @keyframes toggleMenu-anime {
+    0%{
+        left: 100%;
+    }
+    100%{
+        left: 40%;
+    }
+} */
+
+.header-menu-toggle > div{
+    border-bottom:1px solid rgba(128, 128, 128, 0.127) ;
+    
+}
+
+.menu-toggle-links1 {
+
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: grey;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.305);
+    font-family: sans-serif;
+    
+    & li{
+        position: relative;
+        margin-block: 20px;
+        
+    }
+
+    & li::after{
+        content: '';
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 10px;
+        width: 17px;
+        height: 15px;
+        
+        background-image: url('https://www.adidas.com.eg/on/demandware.static/Sites-adidas-EG-Site/-/ar_EG/v1699504162308/images/arrow-left.svg');
+        background-size: 100% 100%;
+     
+        }
+
+
+    & li:nth-child(1) , li:nth-child(2) ,li:nth-child(3)  {
+        font-size: 24px;
+        font-weight: 700;
+        color: black;
+    }
+
+
+    
+}
+
+
+
+.menu-toggle-links2{
+ 
+    font-size: 20px;
+    color: grey;
+    font-family: sans-serif;
+   
+    
+    & li{
+        position: relative;
+        margin-block: 20px;
+        
+    }
+
+
+
+
+}
+
+
+.menu-toggle-links3{
+ 
+    font-size: 22px;
+    color: grey;
+    font-family: sans-serif;
+    border-top: 1px solid  rgba(128, 128, 128, 0.297);
+   
+    
+    & li{
+        position: relative;
+        margin-block: 20px;
+        
+    }
+
+
+    & li:nth-child(1) , li:nth-child(2) {
+        font-size: 20px;
+        color: black;
+    }
+
+}
+
+
+
+.langbox{
+   position: absolute;
+   bottom:0px ; 
+   z-index: 9;
+}

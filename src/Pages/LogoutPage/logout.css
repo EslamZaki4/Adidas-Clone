@@ -1,0 +1,42 @@
+.inform_bord{font-family: "AdineuePRO";
+    font-weight: bold !important;
+    font-size: 36px;
+    margin-right: 10px;
+}
+.logout_buttne {
+    background-color:white;
+    color: black;
+    width: 40% ;
+    height: 40px;
+    box-shadow: 3px 2px black;
+    text-align: end;
+    }
+    .logout_buttne:hover{
+        background-color: gray;
+        opacity: .9;
+    }
+    a{
+        color: black !important;
+    }
+@media(max-width :540px){
+
+.logout-page{
+    
+    /* direction: rtl; */
+    flex-direction: column-reverse;
+}
+.logout_buttne {
+    background-color:white;
+    color: black;
+    width: 60% ;
+    height: 40px;
+    box-shadow: 3px 2px black;
+    text-align: end;
+    justify-content: center;
+    margin-bottom: 10PX;
+    }
+    .logout_buttne:hover{
+        background-color: gray;
+        opacity: .9;
+    }
+}

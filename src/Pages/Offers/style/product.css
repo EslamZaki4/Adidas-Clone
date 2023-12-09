@@ -1,0 +1,154 @@
+.offers .prd-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offers .prd-banner {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  width: 500px;
+  height: 600px;
+  transform: translate(-500px, -50%);
+  opacity: 0.8;
+  border-radius: 30px;
+  background-color: #e9ecef;
+  z-index: -1;
+}
+.offers .prd-banner p {
+  width: 60%;
+  opacity: 0.3;
+}
+.offers .prd-card {
+  position: relative;
+  min-width: 750px;
+  min-height: 500px;
+  border: 1px solid rgba(128, 128, 128, 0.578);
+  background-color: #e9ecef;
+  margin-left: 18%;
+  margin-top: 9%;
+  z-index: 9;
+  border-radius: 30px;
+}
+.offers .align {
+  position: relative;
+  border-radius: 0px 30px 30px 0px;
+  padding: 50px 20px 50px 0px;
+  margin-left: 250px;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: rgba(255, 255, 255, 0.5411764706);
+}
+.offers .align .title {
+  color: rgb(29, 27, 27) !important;
+  width: 90%;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 0;
+  text-align: right;
+}
+.offers .align .price {
+  color: rgb(21, 19, 19) !important;
+  width: 80%;
+  font-size: 40px;
+  font-variant-numeric: oldstyle-nums;
+}
+.offers .align .second-box {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.offers .align .second-box .size {
+  margin-right: 25px;
+}
+.offers .align .second-box .size .options {
+  margin-top: 8px;
+}
+.offers .align .second-box .size .options span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-inline: 5px;
+  border-radius: 50%;
+}
+.offers .align .second-box .size .options span:hover {
+  cursor: pointer;
+}
+.offers .align .second-box .size .options span.active {
+  border: 2px solid rgba(71, 70, 70, 0.984);
+  padding: 1px;
+}
+.offers .align .color-container {
+  margin-right: 45px;
+  border-right: 1px solid lightgray;
+}
+.offers .align .color-container .color-icon {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  margin-inline: 5px;
+}
+.offers .align .color-container .color-icon:hover {
+  filter: contrast(1.5);
+  cursor: pointer;
+}
+.offers .align .color-container .color-icon.active {
+  padding: 1px;
+  outline: 2px solid rgba(71, 70, 70, 0.984);
+}
+.offers .align .btns-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  padding-inline: 20px;
+}
+.offers .align .fav-btn {
+  background-color: transparent;
+  color: gray;
+  border-radius: 8px;
+  border: 0px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.offers .prd-img-container {
+  position: absolute;
+  width: 360px;
+  height: 400px;
+  transform: scale(1.4);
+  left: -180px;
+  top: 40px;
+}
+.offers .prd-img-container .prd-img {
+  width: 100%;
+  height: 400px;
+}
+.offers .arrow.swiper-btn-nextx, .offers .arrow.swiper-btn-prevx {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  right: -5%;
+  transform: translate(0%, -50%);
+  height: 50px;
+  width: 50px;
+  font-size: 35px;
+  background-color: rgba(5, 5, 5, 0.77);
+  color: rgb(255, 252, 252);
+  border: none;
+  border-radius: 50%;
+}
+.offers .arrow.swiper-btn-nextx:hover, .offers .arrow.swiper-btn-prevx:hover {
+  cursor: pointer;
+}
+.offers .arrow.swiper-btn-prevx {
+  left: -7%;
+}
+
+/*# sourceMappingURL=product.css.map */

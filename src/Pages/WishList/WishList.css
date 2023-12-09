@@ -1,0 +1,203 @@
+/* .product-container {
+    display: flex;
+    overflow-x: auto; /
+  }
+  
+  .card {
+    width: 18rem;
+    margin-right: 10px;
+  } */
+  .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   
+   .prd-card {
+     width: 99%;
+   
+   }
+   
+   .prd-row{
+     display: flex;
+     justify-content: flex-end;
+     
+   }
+   
+   
+   .main .prd-body {
+   
+   
+   
+     & .prd-name a {
+       font-size: 12px;
+       font-weight: 500;
+     }
+   
+     & .prd-price span {
+       font-size: 11px;
+       font-weight: 700;
+       color: rgb(21, 19, 19) !important;
+     }
+   
+   
+     & del span{
+       font-size: 11px;
+       font-weight: 700;
+       color: rgba(128, 128, 128, 0.414) !important;
+       
+       display: none;
+   
+     
+     }
+   
+   }
+   
+   
+   
+   @media (min-width: 576px) {  }
+   
+   @media (min-width: 768px) {}
+   
+   @media (min-width: 992px) {
+   
+   .prd-row{
+       width: 95%;
+     }
+     .main .prd-container {
+   
+       width: 25%;
+       
+     }
+   
+   }
+   
+   @media (min-width: 1200px) {
+   
+     .prd-row{
+       width: 90%;
+     }
+     .main .prd-container {
+       
+       width: 25%;
+   
+     }
+   }
+   
+   @media (min-width: 1400px) {}
+   
+   @font-face {
+       font-family: adihausDin;
+       src: url(../../assets/fonts/adihausDin.ttf);
+   }
+   
+   .prd-body {
+       font-family: adihausDin;
+       text-align: end;
+       font-size: 14px;
+       margin-right: 8px;
+       overflow-x: hidden;
+   }
+   
+   .prd-name a {
+   
+       font-size: 16px;
+       letter-spacing: 0.5px;
+       text-decoration: none;
+       color: black;
+   
+   }
+   
+   .curr-price {
+       color: #e32b2b;
+   }
+   
+   .prev-price {
+       color: #b3b3b3;
+       font-size: 12px;
+   }
+   
+   .pct-discount {
+       margin-top: -10px;
+   
+       & span {
+   
+           position: relative;
+           top: -20px;
+           left: -10px;
+           font-size: 13px;
+           background-color: white;
+       }
+   
+   }
+   .prd-img1{
+     cursor: pointer;
+   }
+   .card-border{
+       border: 1px solid rgb(15, 15, 18);
+   }
+   
+   .Love{
+    position: absolute;
+    top: 10px;
+    left:5px;
+    cursor: pointer;
+   
+   }
+   .wishlist-start{
+   display: flex;
+   flex-direction: row-reverse;
+   }
+   .wishlist-second{
+     display: flex;
+   flex-direction:column
+   }
+   
+   .wishlist-grid-login{
+     border: 2px solid black !important;
+     padding: 20px !important;
+     width: 40vw !important; 
+     height:  35vh;
+     margin-left: auto !important;
+   
+     direction: rtl;
+   }
+   
+
+   .wishlist-count{
+     direction: rtl;
+     font-size: 20px;
+     
+   }
+   .js-wishlist-count{
+     margin:5px !important;
+     display: inline;
+   }
+   @media screen and (max-width: 773px) {
+     .wishlist-count{
+       display: none !important;
+     }
+     .wishlist-grid-login{
+       width: auto !important;
+     }
+     
+   }
+   .wishlist-count1{
+     font-size: 20px;
+     color: rgb(196,179,179);
+    
+   }
+   .cart-empty{
+   direction: rtl;
+   }
+   .btn-toHome{
+    margin-left: 1000px ;
+    margin-top: 40px ;
+
+   }
+   .btn-adidas-dark{
+    direction: rtl;
+   }
+   .wishlist-Login-btn{
+    direction: rtl;
+   }
